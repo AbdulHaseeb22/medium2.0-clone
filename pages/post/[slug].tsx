@@ -11,10 +11,10 @@ interface IFormInput {
     name: string;
     email: string;
     comment: string;
-    dataset: any;
-    projectId:any;
-    content:any;
-    serializers:any;
+    dataset: string;
+    projectId:string;
+    content:string;
+    serializers:object;
 }
 
 interface Props{
